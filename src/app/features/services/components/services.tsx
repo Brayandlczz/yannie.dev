@@ -29,7 +29,7 @@ export function Services() {
         <div className="flex flex-col items-center gap-3 sm:items-start">
           <span className="inline-flex w-fit items-center gap-1.5 rounded-full border border-zinc-800 px-3 py-1 font-mono text-[11px] tracking-widest text-black">
             <span
-              className="h-1.5 w-1.5 rounded-full bg-violet-500"
+              className="h-1.5 w-1.5 rounded-full bg-violet-400"
               aria-hidden="true"
             />
             ¿Cómo puedo ayudarte?
