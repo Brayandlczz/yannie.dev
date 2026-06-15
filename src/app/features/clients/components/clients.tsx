@@ -14,7 +14,7 @@ export function Clients() {
     <section
       id="clients"
       aria-labelledby="clients-heading"
-      className="relative mx-auto max-w-7xl px-6 sm:px-10 pt-16 sm:pt-24 scroll-mt-22"
+      className="relative mx-auto max-w-7xl px-6 sm:px-10 pt-24 sm:pt-24 scroll-mt:24"
     >
       <div className="pb-8 flex flex-col items-center gap-4">
 
