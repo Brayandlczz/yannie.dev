@@ -6,6 +6,8 @@ import "./globals.css";
 import { Navbar } from "@/app/features/navbar";
 import { Footer } from "@/app/features/footer";
 
+import { StructuredData } from "@/app/features/seo";
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -93,6 +95,7 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full">
+        <StructuredData />
         <Navbar />
         {children}
         <Footer />
