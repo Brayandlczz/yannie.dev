@@ -12,7 +12,6 @@ export interface SocialLink {
 export const FOOTER_NAV_LINKS: FooterLink[] = [
   { label: "Inicio",    href: "/" },
   { label: "Servicios", href: "#services" },
-  { label: "Contacto",  href: "#contact" },
 ];
 
 export const FOOTER_LEGAL_LINKS: FooterLink[] = [
