@@ -5,7 +5,6 @@ import "./globals.css";
 
 import { Navbar } from "@/app/features/navbar";
 import { Footer } from "@/app/features/footer";
-
 import { StructuredData } from "@/app/features/seo";
 
 const geistSans = Geist({
@@ -58,10 +57,10 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/og-image.png",
+        url: "/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: "yannie.dev - Full Stack Developer",
+        alt: "Brayan de la Cruz | Full Stack Developer",
       },
     ],
   },
@@ -71,7 +70,12 @@ export const metadata: Metadata = {
     title: "yannie.dev | Full Stack Developer",
     description:
       "Brayan de la Cruz, Full Stack Developer especializado en soluciones digitales modernas.",
-    images: ["/og-image.png"],
+    images: [
+      {
+        url: "/twitter-image.png",
+        alt: "Brayan de la Cruz | Full Stack Developer",
+      },
+    ],
   },
 
   robots: {
