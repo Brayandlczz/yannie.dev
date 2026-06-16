@@ -19,7 +19,7 @@ export function AboutText() {
         variants={aboutItemVariants}
         className="text-sm leading-relaxed text-zinc-600 text-justify"
       >
-        A lo largo de mi experiencia he trabajado en proyectos para empresas, marcas y amigos, desarrollando desde sitios web hasta plataformas de gestión y soluciones a la medida.         Creo que una buena solución no depende únicamente de la tecnología, sino de entender el problema correcto. Para mí, cada proyecto comienza escuchando las necesidades del cliente y termina con un producto pensado para crecer junto con su negocio.
+        A lo largo de mi experiencia he trabajado en proyectos para empresas, marcas y amigos, desarrollando desde sitios web hasta plataformas completas y soluciones a la medida. Me considero fiel creyente en que una buena solución no depende únicamente de la tecnología, sino de entender el problema correctamente. Para mí, cada proyecto comienza escuchando las necesidades del cliente y termina con un producto pensado para crecer junto con su negocio.
 
       </motion.p>
 
@@ -27,7 +27,7 @@ export function AboutText() {
         variants={aboutItemVariants}
         className="text-sm leading-relaxed text-zinc-600 text-justify"
       >
-        Creo que una buena solución no depende únicamente de la tecnología, sino de entender el problema correcto. Para mí, cada proyecto comienza escuchando las necesidades del cliente y termina con un producto pensado para crecer junto con su negocio.
+        Además del desarrollo, disfruto aprendiendo y manteniéndome al día con nuevas tecnologías. Estoy convencido de que el verdadero valor en algo no solo está en funcionar, sino en seguir siendo útil y evolucionar para el mañana.
       </motion.p>
 
       <AboutQuote />
